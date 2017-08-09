@@ -1,0 +1,1078 @@
+var hlth =
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.97657285,40.73962321 ]
+    },
+    "properties": {
+    "ID":1,
+    "Facility_Type":"Acute Care Hospital",
+    "Borough":"Manhattan",
+    "Facility_Name":"Bellevue Hospital Center",
+    "Cross_Streets":"",
+    "Phone":"212-562-4141",
+    "Location":"462 First Avenue, New York\nNew York, NY 10016"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.94999967,40.76197649 ]
+    },
+    "properties": {
+    "ID":2,
+    "Facility_Type":"Nursing Home",
+    "Borough":"Manhattan",
+    "Facility_Name":"Coler-Goldwater Specialty Hospital and Nursing Facility/Goldwater Campus",
+    "Cross_Streets":"",
+    "Phone":"212-318-8000",
+    "Location":"1 Main St Roosevelt Island\nNew York, NY 10044"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.94999967,40.76197649 ]
+    },
+    "properties": {
+    "ID":3,
+    "Facility_Type":"Nursing Home",
+    "Borough":"Manhattan",
+    "Facility_Name":"Coler-Goldwater Specialty Hospital and Nursing Facility/Coler Campus",
+    "Cross_Streets":"",
+    "Phone":"212-848-6000 ",
+    "Location":"900 Main Street Roosevelt Island\nNew York, NY 10044"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.98759853,40.7128414 ]
+    },
+    "properties": {
+    "ID":4,
+    "Facility_Type":"Nursing Home",
+    "Borough":"Manhattan",
+    "Facility_Name":"Gouverneur Healthcare Services",
+    "Cross_Streets":"",
+    "Phone":"212-238-7000",
+    "Location":"227 Madison Street\nNew York, NY 10002"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.98759853,40.7128414 ]
+    },
+    "properties": {
+    "ID":5,
+    "Facility_Type":"Diagnostic & Treatment Center",
+    "Borough":"Manhattan",
+    "Facility_Name":"Gouverneur Healthcare Services",
+    "Cross_Streets":"",
+    "Phone":"212-238-7000",
+    "Location":"227 Madison Street\nNew York, NY 10002"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.94060283,40.81427522 ]
+    },
+    "properties": {
+    "ID":6,
+    "Facility_Type":"Acute Care Hospital",
+    "Borough":"Manhattan",
+    "Facility_Name":"Harlem Hospital Center",
+    "Cross_Streets":"",
+    "Phone":"212-939-1000",
+    "Location":"506 Lenox Avenue\nNew York, NY 10037"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.94379565,40.78455702 ]
+    },
+    "properties": {
+    "ID":7,
+    "Facility_Type":"Acute Care Hospital",
+    "Borough":"Manhattan",
+    "Facility_Name":"Metropolitan Hospital Center",
+    "Cross_Streets":"",
+    "Phone":"212-423-6262",
+    "Location":"1901 First Avenue\nNew York, NY 10029"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.94919748,40.80933865 ]
+    },
+    "properties": {
+    "ID":8,
+    "Facility_Type":"Diagnostic & Treatment Center",
+    "Borough":"Manhattan",
+    "Facility_Name":"Renaissance Health Care Network Diagnostic & Treatment Center",
+    "Cross_Streets":"",
+    "Phone":"212-932-6500 ",
+    "Location":"215 125 Street\nNew York, NY 10027"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.92420027,40.81768848 ]
+    },
+    "properties": {
+    "ID":9,
+    "Facility_Type":"Acute Care Hospital",
+    "Borough":"Bronx",
+    "Facility_Name":"Lincoln Medical and Mental Health Center",
+    "Cross_Streets":"",
+    "Phone":"718-579-5000",
+    "Location":"234 149th Street\nBronx, NY 10451"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.92003404,40.83590639 ]
+    },
+    "properties": {
+    "ID":10,
+    "Facility_Type":"Diagnostic & Treatment Center",
+    "Borough":"Bronx",
+    "Facility_Name":"Morrisania Diagnostic & Treatment Center",
+    "Cross_Streets":"",
+    "Phone":"718-960-2777",
+    "Location":"1225 Gerard Avenue\nBronx, NY 10452"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.91681185,40.81012186 ]
+    },
+    "properties": {
+    "ID":11,
+    "Facility_Type":"Diagnostic & Treatment Center",
+    "Borough":"Bronx",
+    "Facility_Name":"Segundo Ruiz Belvis Diagnostic & Treatment Center",
+    "Cross_Streets":"",
+    "Phone":"718-579-4000",
+    "Location":"545 142nd Street\nBronx, NY 10454"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.97623557,40.69514358 ]
+    },
+    "properties": {
+    "ID":12,
+    "Facility_Type":"Diagnostic & Treatment Center",
+    "Borough":"Brooklyn",
+    "Facility_Name":"Cumberland Diagnostic & Treatment Center",
+    "Cross_Streets":"",
+    "Phone":"718-260-7500",
+    "Location":"100 Portland Avenue\nBrooklyn, NY 11205"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.89520529,40.6719625 ]
+    },
+    "properties": {
+    "ID":13,
+    "Facility_Type":"Diagnostic & Treatment Center",
+    "Borough":"Brooklyn",
+    "Facility_Name":"East New York Diagnostic & Treatment Center",
+    "Cross_Streets":"",
+    "Phone":"718-240-0400",
+    "Location":"2094 Pitkin Avenue\nBrooklyn, NY 11207"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.94466262,40.65576181 ]
+    },
+    "properties": {
+    "ID":14,
+    "Facility_Type":"Acute Care Hospital",
+    "Borough":"Brooklyn",
+    "Facility_Name":"Kings County Hospital Center",
+    "Cross_Streets":"",
+    "Phone":"718-245-3131",
+    "Location":"451 Clarkson Avenue\nBrooklyn, NY 11203"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.9397615,40.66005452 ]
+    },
+    "properties": {
+    "ID":15,
+    "Facility_Type":"Nursing Home",
+    "Borough":"Brooklyn",
+    "Facility_Name":"Dr. Susan Smith McKinney Nursing and Rehabilitation Center",
+    "Cross_Streets":"",
+    "Phone":"718-245-7000",
+    "Location":"594 Albany Avenue\nBrooklyn, NY 11203"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.94164386,40.70052661 ]
+    },
+    "properties": {
+    "ID":16,
+    "Facility_Type":"Acute Care Hospital",
+    "Borough":"Brooklyn",
+    "Facility_Name":"Woodhull Medical and Mental Health Center",
+    "Cross_Streets":"",
+    "Phone":"718-963-8000",
+    "Location":"760 Broadway\nBrooklyn, NY 11206"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.87835116,40.7387104 ]
+    },
+    "properties": {
+    "ID":17,
+    "Facility_Type":"Acute Care Hospital",
+    "Borough":"Queens",
+    "Facility_Name":"Elmhurst Hospital Center",
+    "Cross_Streets":"",
+    "Phone":"718-334-4000",
+    "Location":"79 01\nElmhurst, NY 11373"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.792821,40.71311535 ]
+    },
+    "properties": {
+    "ID":18,
+    "Facility_Type":"Acute Care Hospital",
+    "Borough":"Queens",
+    "Facility_Name":"Queens Hospital Center",
+    "Cross_Streets":"",
+    "Phone":"718-883-3000",
+    "Location":"82 70 164th Street\nJamaica, NY 11432"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.89454872,40.84400021 ]
+    },
+    "properties": {
+    "ID":19,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Bronx",
+    "Facility_Name":"Health Center at Tremont",
+    "Cross_Streets":"corner of 175th St.",
+    "Phone":"718-918-8700",
+    "Location":"1826 Arthur Avenue\nBronx, NY 10457"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.92420027,40.81768848 ]
+    },
+    "properties": {
+    "ID":20,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Bronx",
+    "Facility_Name":"Lincoln  Medical &  Mental Health Center",
+    "Cross_Streets":"",
+    "Phone":"718-579-5000",
+    "Location":"234 149th Street\nBronx, NY 10451"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.92003404,40.83590639 ]
+    },
+    "properties": {
+    "ID":21,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Bronx",
+    "Facility_Name":"Morrisania Diagnostic & Treatment Center",
+    "Cross_Streets":"",
+    "Phone":"718-960-2777",
+    "Location":"1225 Gerard Avenue\nBronx, NY 10452"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.9095346,40.83227985 ]
+    },
+    "properties": {
+    "ID":22,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Bronx",
+    "Facility_Name":"Daniel Webster Houses Child Health Clinic",
+    "Cross_Streets":"corner of Webster Ave.",
+    "Phone":"718-538-2147",
+    "Location":"401 168th Street\nBronx, NY 10456"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.91931316,40.81090132 ]
+    },
+    "properties": {
+    "ID":23,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Bronx",
+    "Facility_Name":"Segundo Ruiz Belvis Diagnostic & Treatment Center",
+    "Cross_Streets":"",
+    "Phone":"718-579-4000",
+    "Location":"454 142nd Street\nBronx, NY 10454"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.91770979,40.82130119 ]
+    },
+    "properties": {
+    "ID":24,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Bronx",
+    "Facility_Name":"Melrose Houses Child Health Clinic",
+    "Cross_Streets":"between Morris Ave. & Courtlandt Ave.",
+    "Phone":"718-292-2820",
+    "Location":"348 156th Street\nBronx, NY 10451"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.94060283,40.81427522 ]
+    },
+    "properties": {
+    "ID":25,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Manhattan",
+    "Facility_Name":"Harlem Hospital Center",
+    "Cross_Streets":"",
+    "Phone":"212-939-1000",
+    "Location":"506 Lenox Avenue\nNew York, NY 10037"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.94919748,40.80933865 ]
+    },
+    "properties": {
+    "ID":26,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Manhattan",
+    "Facility_Name":"Renaissance Health Care Network Diagnostic & Treatment Center",
+    "Cross_Streets":"",
+    "Phone":"212-932-6500",
+    "Location":"215 125th Street\nNew York, NY 10027"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.94238975,40.82213998 ]
+    },
+    "properties": {
+    "ID":27,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Manhattan",
+    "Facility_Name":"Drew Hamilton Houses Health Center",
+    "Cross_Streets":"between W. 143rd St. & W. 144th St.",
+    "Phone":"212-939-8950",
+    "Location":"2698 Eighth Avenue\nNew York, NY 10030"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.95843049,40.81525566 ]
+    },
+    "properties": {
+    "ID":28,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Manhattan",
+    "Facility_Name":"Grant Houses Clinic",
+    "Cross_Streets":"",
+    "Phone":"212-678-8420",
+    "Location":"3170 Broadway\nNew York, NY 10027"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.94965776,40.811277 ]
+    },
+    "properties": {
+    "ID":29,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Manhattan",
+    "Facility_Name":"Manhattanville/St. Nicholas Houses Child Health Care Center",
+    "Cross_Streets":"between A.C. Powell & F. Douglas Blvds.",
+    "Phone":"212-865-1300",
+    "Location":"281 127th Street\nNew York, NY 10027"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.94919748,40.80933865 ]
+    },
+    "properties": {
+    "ID":30,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Manhattan",
+    "Facility_Name":"Sydenham Health Center",
+    "Cross_Streets":"",
+    "Phone":"212-932-6500",
+    "Location":"215 125th Street\nNew York, NY 10027"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.9399617,40.84112788 ]
+    },
+    "properties": {
+    "ID":31,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Manhattan",
+    "Facility_Name":"Washington Heights Child Health Care Center",
+    "Cross_Streets":"corner of Broadway",
+    "Phone":"212-795-0880",
+    "Location":"600 168th Street\nNew York, NY 10032"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.94379565,40.78455702 ]
+    },
+    "properties": {
+    "ID":32,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Manhattan",
+    "Facility_Name":"Metropolitan Hospital Center",
+    "Cross_Streets":"",
+    "Phone":"212-423-6262",
+    "Location":"1901 First Avenue\nNew York, NY 10029"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.93266795,40.79820504 ]
+    },
+    "properties": {
+    "ID":33,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Manhattan",
+    "Facility_Name":"La Clinica Del Barrio",
+    "Cross_Streets":"",
+    "Phone":"212-410-7940",
+    "Location":"413 120th Street\nNew York, NY 10035"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.97657285,40.73962321 ]
+    },
+    "properties": {
+    "ID":34,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Manhattan",
+    "Facility_Name":"Bellevue Hospital Center",
+    "Cross_Streets":"",
+    "Phone":"212-562-4141",
+    "Location":"462 First Avenue\nNew York, NY 10016"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.98759853,40.7128414 ]
+    },
+    "properties": {
+    "ID":35,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Manhattan",
+    "Facility_Name":"Gouverneur Diagnostic & Treatment Center",
+    "Cross_Streets":"",
+    "Phone":"212-238-7200",
+    "Location":"227 Madison Street\nNew York, NY 10002"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.98013566,40.71636702 ]
+    },
+    "properties": {
+    "ID":36,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Manhattan",
+    "Facility_Name":"Baruch Houses Family Health Center",
+    "Cross_Streets":"corner of Columbia St.",
+    "Phone":"212-673-5990",
+    "Location":"280 Delancey Street\nNew York, NY 10002"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.99571941,40.72173569 ]
+    },
+    "properties": {
+    "ID":37,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Manhattan",
+    "Facility_Name":"Judson Health Center",
+    "Cross_Streets":"",
+    "Phone":"212-925-5000",
+    "Location":"34 Spring Street\nNew York, NY 10012"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.99754222,40.71196973 ]
+    },
+    "properties": {
+    "ID":38,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Manhattan",
+    "Facility_Name":"Smith Communicare Health Center",
+    "Cross_Streets":"corner of Catherine St.",
+    "Phone":"212-346-0500",
+    "Location":"60 Madison Street\nNew York, NY 10038"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.97991663,40.72930119 ]
+    },
+    "properties": {
+    "ID":39,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Manhattan",
+    "Facility_Name":"Roberto Clemente Health Center",
+    "Cross_Streets":"",
+    "Phone":"212-387-7400",
+    "Location":"540 13th Street\nNew York, NY 10009"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.87835116,40.7387104 ]
+    },
+    "properties": {
+    "ID":40,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Queens",
+    "Facility_Name":"Elmhurst Hospital Center",
+    "Cross_Streets":"",
+    "Phone":"718-334-4000",
+    "Location":"79 01\nElmhurst, NY 11373"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.85304069,40.74967822 ]
+    },
+    "properties": {
+    "ID":41,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Queens",
+    "Facility_Name":"Corona Child Health Clinic",
+    "Cross_Streets":"between 104th St. & 106th St.",
+    "Phone":"718-334-6100",
+    "Location":"104 04 Corona Avenue\nCorona, NY 11368"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.88361255,40.75163074 ]
+    },
+    "properties": {
+    "ID":42,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Queens",
+    "Facility_Name":"Junction Boulevard Child Health Clinic",
+    "Cross_Streets":"between 34th Ave. & 35th Ave.",
+    "Phone":"718-334-6150",
+    "Location":"34 33 Junction Boulevard\nJackson Heights, NY 11372"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.90543309,40.70294964 ]
+    },
+    "properties": {
+    "ID":43,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Queens",
+    "Facility_Name":"Ridgewood Communicare Clinic",
+    "Cross_Streets":"between Woodbine St. & Madison St.",
+    "Phone":"718-334-6190",
+    "Location":"769 Onderdonk Avenue\nRidgewood, NY 11385"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.90484714,40.74519376 ]
+    },
+    "properties": {
+    "ID":44,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Queens",
+    "Facility_Name":"Woodside Houses Child Health Clinic",
+    "Cross_Streets":"between Northern Blvd. & 50th St.",
+    "Phone":"718-334-6140",
+    "Location":"50 53 Newtown Road\nWoodside, NY 11377"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.792821,40.71311535 ]
+    },
+    "properties": {
+    "ID":45,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Queens",
+    "Facility_Name":"Queens Hospital Center",
+    "Cross_Streets":"",
+    "Phone":"718-883-3000",
+    "Location":"82 68 164th Street\nJamaica, NY 11432"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.792821,40.71311535 ]
+    },
+    "properties": {
+    "ID":46,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Queens",
+    "Facility_Name":"Parsons Communicare Clinic",
+    "Cross_Streets":"between Jamaica Ave. & 90th Ave.",
+    "Phone":"718-334-6401",
+    "Location":"90 37 Parsons Boulevard\nJamaica, NY 11432"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.75087393,40.66971118 ]
+    },
+    "properties": {
+    "ID":47,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Queens",
+    "Facility_Name":"Springfield Gardens Medical Center",
+    "Cross_Streets":"",
+    "Phone":"718-883-6800",
+    "Location":"134 64 Springfield Blvd\nSpringfield Gardens, NY 11413"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.7753069,40.67694526 ]
+    },
+    "properties": {
+    "ID":48,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Queens",
+    "Facility_Name":"South Queens Community Health Center",
+    "Cross_Streets":"",
+    "Phone":"718-883-6699",
+    "Location":"114 02 Guy R Brewer Blvd\nJamaica, NY 11434"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.97623557,40.69514358 ]
+    },
+    "properties": {
+    "ID":49,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Brooklyn",
+    "Facility_Name":"Cumberland Diagnostic & Treatment Center",
+    "Cross_Streets":"",
+    "Phone":"718-260-7500",
+    "Location":"100 Portland Avenue\nBrooklyn, NY 11205"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.93545688,40.69392372 ]
+    },
+    "properties": {
+    "ID":50,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Brooklyn",
+    "Facility_Name":"Eleanor Roosevelt Houses Child Health Clinic",
+    "Cross_Streets":"between Lewis Ave. & Stuyvesant Ave.",
+    "Phone":"718-452-1146",
+    "Location":"388 Pulaski Street\nBrooklyn, NY 11206"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.98241302,40.6920534 ]
+    },
+    "properties": {
+    "ID":51,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Brooklyn",
+    "Facility_Name":"Fort Greene Child Health Clinic",
+    "Cross_Streets":"between DeKalb Ave. & Willoughby Ave.",
+    "Phone":"718-260-7500 ext. 7859",
+    "Location":"295 Flatbush Avenue Extension\nBrooklyn, NY 11201"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.95616582,40.71536761 ]
+    },
+    "properties": {
+    "ID":52,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Brooklyn",
+    "Facility_Name":"Jonathan Williams Houses Child Health Clinic",
+    "Cross_Streets":"between Roebling Street & Division Ave.",
+    "Phone":"718-387-6407",
+    "Location":"118 Roebling Street\nBrooklyn, NY 11211"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.95978266,40.69036663 ]
+    },
+    "properties": {
+    "ID":53,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Brooklyn",
+    "Facility_Name":"Lafayette Houses Child Health Clinic",
+    "Cross_Streets":"between Classon Ave. & Taffee Place",
+    "Phone":"718-638-8258",
+    "Location":"434 Dekalb Avenue\nBrooklyn, NY 11205"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.94100661,40.69785529 ]
+    },
+    "properties": {
+    "ID":54,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Brooklyn",
+    "Facility_Name":"Sumner Avenue Houses Child Health Clinic",
+    "Cross_Streets":"between Myrtle Ave. & Park Ave.",
+    "Phone":"718-455-3884",
+    "Location":"47 Marcus Garvey Boulevard\nBrooklyn, NY 11206"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.94399407,40.71210324 ]
+    },
+    "properties": {
+    "ID":55,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Brooklyn",
+    "Facility_Name":"Williamsburg Child Health Clinic",
+    "Cross_Streets":"between Power & Grand St.",
+    "Phone":"718-387-2211",
+    "Location":"279 Graham Ave\nBrooklyn, NY 11206"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.94164386,40.70052661 ]
+    },
+    "properties": {
+    "ID":56,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Brooklyn",
+    "Facility_Name":"Woodhull Medical and Mental Health Center",
+    "Cross_Streets":"",
+    "Phone":"718-963-8000",
+    "Location":"760 Broadway\nBrooklyn, NY 11206"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.90908239,40.68430357 ]
+    },
+    "properties": {
+    "ID":57,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Brooklyn",
+    "Facility_Name":"Bushwick Community Health Center",
+    "Cross_Streets":"",
+    "Phone":"718-919-1200",
+    "Location":"1420 Bushwick Avenue\nBrooklyn, NY 11207"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.91922392,40.69473843 ]
+    },
+    "properties": {
+    "ID":58,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Brooklyn",
+    "Facility_Name":"Bushwick Communicare",
+    "Cross_Streets":"between Linden St. & Grove St.",
+    "Phone":"718-573-4860",
+    "Location":"335 Central Avenue\nBrooklyn, NY 11221"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.95404546,40.72966561 ]
+    },
+    "properties": {
+    "ID":59,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Brooklyn",
+    "Facility_Name":"Greenpoint Community Health Center",
+    "Cross_Streets":"",
+    "Phone":"718-630-3220",
+    "Location":"875 Manhattan Avenue\nBrooklyn, NY 11222"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.94399407,40.71210324 ]
+    },
+    "properties": {
+    "ID":60,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Brooklyn",
+    "Facility_Name":"Williamsburg Health Center",
+    "Cross_Streets":"",
+    "Phone":"718-963-7820",
+    "Location":"279 Graham Avenue\nBrooklyn, NY 11211"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.94466262,40.65576181 ]
+    },
+    "properties": {
+    "ID":61,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Brooklyn",
+    "Facility_Name":"Kings County Hospital Center",
+    "Cross_Streets":"",
+    "Phone":"718-245-3131",
+    "Location":"451 Clarkson Avenue\nBrooklyn, NY 11203"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.89520529,40.6719625 ]
+    },
+    "properties": {
+    "ID":62,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Brooklyn",
+    "Facility_Name":"East New York Diagnostic & Treatment Center",
+    "Cross_Streets":"",
+    "Phone":"718-240-0400",
+    "Location":"2094 Pitkin Avenue\nBrooklyn, NY 11225"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.91141092,40.66491117 ]
+    },
+    "properties": {
+    "ID":63,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Brooklyn",
+    "Facility_Name":"Brownsville Child Health Clinic",
+    "Cross_Streets":"between Dumont Ave. & Blake Ave.",
+    "Phone":"718-495-7283",
+    "Location":"259 Bristol Street\nBrooklyn, NY 11212"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.9357017,40.67349222 ]
+    },
+    "properties": {
+    "ID":64,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Brooklyn",
+    "Facility_Name":"Crown Heights Child Health Clinic",
+    "Cross_Streets":"",
+    "Phone":"718-735-0561",
+    "Location":"1218 Prospect Place\nBrooklyn, NY 11213"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.87831882,40.67189904 ]
+    },
+    "properties": {
+    "ID":65,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Brooklyn",
+    "Facility_Name":"Sutter Avenue Child Health Clinic",
+    "Cross_Streets":"between Montauk Ave. & Atkins Ave.",
+    "Phone":"718-647-0800",
+    "Location":"1091 Sutter Avenue\nBrooklyn, NY 11208"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.1574749,40.62609762 ]
+    },
+    "properties": {
+    "ID":66,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Staten Island",
+    "Facility_Name":"Mariner's Harbor Houses Child Health Clinic",
+    "Cross_Streets":"",
+    "Phone":"718-761-2060",
+    "Location":"2040 Forest Avenue\nStaten Island, NY 10303"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.07699447,40.62657645 ]
+    },
+    "properties": {
+    "ID":67,
+    "Facility_Type":"Child Health Center",
+    "Borough":"Staten Island",
+    "Facility_Name":"Stapleton Child Health Clinic",
+    "Cross_Streets":"between Water St. & Canal St.",
+    "Phone":"718-390-0712",
+    "Location":"111 Canal Street\nStaten Island, NY 10304"
+    }
+  }
+]
+}
