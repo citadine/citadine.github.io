@@ -1,31 +1,3 @@
-GGR400Javascript.js
-DETAILS
-ACTIVITY
-GGR400Javascript.js
-Sharing Info
-
-General Info
-Type
-Javascript
-Size
-11 KB (10,880 bytes)
-Storage used
-0 bytesOwned by someone else
-Location
-Final Project
-Owner
-Yi Chen
-Modified
-Apr 5, 2016 by Yi Chen
-Opened
-6:51 PM by me
-Created
-Apr 5, 2016
-Description
-Add a description
-Download permissions
-Viewers can download
-
 mapboxgl.accessToken = 'pk.eyJ1IjoiY2hlbnlpIiwiYSI6ImNpam4yeTBlNTAwY2d0b201ZGhnNWRzZXEifQ.3ddWSoN5UBBiG3Bug0TzoQ';
 
 // Standard set up
