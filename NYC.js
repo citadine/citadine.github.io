@@ -124,6 +124,7 @@ map.on('load', function(){
         "type": "circle",
         "source": "HealthFacilitiesSource",
         "layout": {},
+        "z-index": "-"typeidx,
         "paint":{
           'circle-color': facility_colors[typeidx],
           'circle-radius': facility_size[typeidx],
