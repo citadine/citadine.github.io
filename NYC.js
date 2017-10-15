@@ -108,26 +108,26 @@ map.on('load', function(){
     var layerID = 'poi-' + type;
     if (type === "Diagnostic & Treatment Center"){
       typeidx = 0;
-      zIndex = 5;
+      zx = 20;
     }
     else if (type === "Acute Care Hospital"){
       typeidx = 1;
-      zIndex = 4;
+      zx = 10;
     }
     else if (type === "Nursing Home"){
       typeidx = 2;
-      zIndex = 3;
+      zx = -10;
     }
     else if (type === "Child Health Center"){
       typeidx = 3;
-      zIndex = 2;
+      zx = -20;
     }
     if (!map.getLayer(layerID)) {
       map.addLayer({
         "id": layerID,
         "type": "circle",
         "source": "HealthFacilitiesSource",
-        "z-index": zIndex;
+        "z-index": zx;
         "layout": {},
         "paint":{
           'circle-color': facility_colors[typeidx],
@@ -263,7 +263,7 @@ map.easeTo({
 })
 
 // add the source and layer information of the buffer geojson (tempClickBuffer) and
-// subset of supermarkets geojson objects created
+// subset of facilities geojson objects created
 map.addSource('tempHealth',{
   "type": "geojson",
   "data": tempHealth
