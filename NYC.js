@@ -123,7 +123,6 @@ map.on('load', function(){
         "id": layerID,
         "type": "circle",
         "source": "HealthFacilitiesSource",
-        "z-index": "-"typeidx,
         "layout": {},
         "paint":{
           'circle-color': facility_colors[typeidx],
