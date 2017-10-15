@@ -108,15 +108,19 @@ map.on('load', function(){
     var layerID = 'poi-' + type;
     if (type === "Diagnostic & Treatment Center"){
       typeidx = 0;
+      zIndex = 5;
     }
     else if (type === "Acute Care Hospital"){
       typeidx = 1;
+      zIndex = 4;
     }
     else if (type === "Nursing Home"){
       typeidx = 2;
+      zIndex = 3;
     }
     else if (type === "Child Health Center"){
       typeidx = 3;
+      zIndex = 2;
     }
     if (!map.getLayer(layerID)) {
       map.addLayer({
@@ -258,7 +262,7 @@ map.easeTo({
 })
 
 // add the source and layer information of the buffer geojson (tempClickBuffer) and
-// subset of supermarkets geojson (tempSprmkts) objects you created
+// subset of supermarkets geojson objects created
 map.addSource('tempHealth',{
   "type": "geojson",
   "data": tempHealth
