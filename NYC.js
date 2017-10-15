@@ -108,26 +108,22 @@ map.on('load', function(){
     var layerID = 'poi-' + type;
     if (type === "Diagnostic & Treatment Center"){
       typeidx = 0;
-      zx = 20;
     }
     else if (type === "Acute Care Hospital"){
       typeidx = 1;
-      zx = 10;
     }
     else if (type === "Nursing Home"){
       typeidx = 2;
-      zx = -10;
     }
     else if (type === "Child Health Center"){
       typeidx = 3;
-      zx = -20;
     }
     if (!map.getLayer(layerID)) {
       map.addLayer({
         "id": layerID,
         "type": "circle",
         "source": "HealthFacilitiesSource",
-        "z-index": zx;
+        "z-index": "-"typeidx;
         "layout": {},
         "paint":{
           'circle-color': facility_colors[typeidx],
