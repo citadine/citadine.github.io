@@ -6,7 +6,7 @@ var map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/chenyi/cilwf6sdq002j9mm38001yzm0',
   center: [-73.987910,40.722223],
-  zoom: 8
+  zoom: 12
 });
 // Add direction functionality
 map.addControl(new mapboxgl.Directions());
